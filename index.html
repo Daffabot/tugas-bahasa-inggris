@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Tugas-Tugas Bahasa Inggris</title>
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- Our CSS -->
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: #dedede;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 15px;
+            background-color: #fff;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slider .slick-slide {
+            border: solid 1px #000;
+        }
+
+        .slider .slick-slide img {
+            width: 100%;
+        }
+
+        /* make button larger and change their positions */
+        .slick-prev, .slick-next {
+            width: 50px;
+            height: 50px;
+            z-index: 1;
+        }
+        .slick-prev {
+            left: 5px;
+        }
+        .slick-next {
+            right: 5px;
+        }
+        .slick-prev:before, 
+        .slick-next:before {
+            font-size: 40px;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        
+        /* move dotted nav position */
+        .slick-dots {
+            bottom: 15px;
+        }
+        /* enlarge dots and change their colors */
+        .slick-dots li button:before {
+            font-size: 12px;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+            opacity: 1;
+        }
+        .slick-dots li.slick-active button:before {
+            color: #dedede;
+        }
+        a {text-decoration: none;}
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1 style="text-align: center;">Tugas-Tugas Bahasa Inggris</h1>
+        <p align="center" style="font-size: 20px width: auto;">Introducing</p>
+        <font size="3">
+        <p align="left" style="margin-left: 10%;" width="auto" height="auto">
+        Nama: Daffa Ahmad Ibrahim<br>
+        Kelas: 8A<br>
+        Tanggal: 14 Maret 2022<br>
+        Absen: 08<br>
+        Mata Pelajaran: Bahasa Inggris<br><br>
+        *note jika ada tugas yang kurang silahkan hubungi saya di <a href="https://wa.me/+6285156207150?text=Halo+muridku+tersayang" target="_blank" >Whatsapp</a> atau <a href="mailto:daffahmadibrahim@gmail.com" > Email</a>
+        </p>
+        </font>
+        <div class="slider">
+            <div>
+                <a href="#">
+                    <img src="hal1.png" alt="Image 1">
+                </a>            
+            </div>
+            <div>
+                <a href="#">
+                    <img src="hal2.png" alt="Image 2">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="hal3.png" alt="Image 3">
+                </a>            
+            </div>
+            <div>
+                <a href="#">
+                    <img src="hal4.png" alt="Image 4">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="hal5.png" alt="Image 5">
+                </a>            
+            </div>
+            <div>
+            <a href="#">
+            <img src="hal6.png" alt="Image 6">
+            </a>            
+            </div>
+            <div>
+            <a href="#">
+            <img src="hal7.png" alt="Image 7">
+            </a>
+            </div>
+            <div>
+            <a href="#">
+            <img src="hal8.png" alt="Image 8">
+            </a>            
+            </div>
+            <div>
+            <a href="#">
+            <img src="hal9.png" alt="Image 9">
+            </a>            
+            </div>
+        </div>
+    </div>
+        
+
+    
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Slick JS -->    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Our Script -->
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 2500,
+            dots: true
+            });
+        });
+    </script>
+
+</body>
+</html>
